@@ -17,8 +17,8 @@
     :root {
         --text-color: #e0e0e0;
         --light-text: #a0a0a0;
-        --background-color: #1a1a1a;
-        --light-background: #2d2d2d;
+        --background-color: #E6C3A2;
+        --light-background: #E6C3A2;
         --border-color: #404040;
     }
 }
@@ -108,12 +108,12 @@ nav {
 .nav-brand {
     font-size: 1rem;
     font-weight: 500;
-    color: var(--secondary-color);
+    color: white;
     letter-spacing: 0;
 }
 
 .nav-brand:hover {
-    color: var(--primary-color);
+    color: #f0f0f0;
 }
 
 .nav-menu {
@@ -123,7 +123,7 @@ nav {
 }
 
 .nav-menu a {
-    color: var(--secondary-color);
+    color: white;
     font-size: 0.9rem;
     transition: color 0.3s ease;
     padding-bottom: 0;
@@ -132,12 +132,12 @@ nav {
 }
 
 .nav-menu a:hover {
-    color: var(--primary-color);
+    color: #f0f0f0;
     text-decoration: none;
 }
 
 .nav-menu a.active {
-    color: var(--secondary-color);
+    color: white;
     border-bottom: none;
     font-weight: 500;
 }
