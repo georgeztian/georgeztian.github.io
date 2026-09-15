@@ -6,9 +6,9 @@ This repository contains my personal academic website.
 
 ## Identity
 
-Name: George Zhe Tian
-Position: Assistant Professor of Finance
-Institution: University of Tampa
+- Name: George Zhe Tian
+- Position: Assistant Professor of Finance
+- Institution: University of Tampa
 
 ## Website Goals
 
