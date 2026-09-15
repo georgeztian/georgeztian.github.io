@@ -1,9 +1,9 @@
 /* Root Variables */
 :root {
     --primary-color: #D4AF37;
-    --secondary-color: #666666;
-    --text-color: #666666;
-    --light-text: #888888;
+    --secondary-color: #000000;
+    --text-color: #000000;
+    --light-text: #333333;
     --link-color: #D4AF37;
     --background-color: #ffffff;
     --light-background: #ffffff;
