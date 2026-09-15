@@ -79,7 +79,7 @@ a:hover {
 header {
     background-color: white;
     color: var(--primary-color);
-    padding: 1rem var(--padding);
+    padding: 0.7rem var(--padding);
     border-bottom: 1px solid var(--border-color);
     position: sticky;
     top: 0;
