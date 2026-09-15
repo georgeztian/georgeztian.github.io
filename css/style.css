@@ -298,29 +298,29 @@ li {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: transparent;
+    color: var(--secondary-color);
     text-align: left;
     padding: 2rem var(--padding);
     margin-top: 3rem;
-    border-top: 2px solid var(--primary-color);
+    border-top: none;
     max-width: var(--max-width);
     margin-left: auto;
     margin-right: auto;
 }
 
 footer p {
-    color: white;
+    color: var(--secondary-color);
     margin-bottom: 0.5rem;
     font-size: 0.85rem;
 }
 
 footer a {
-    color: white;
+    color: var(--link-color);
 }
 
 footer a:hover {
-    color: #f0f0f0;
+    color: var(--link-color);
 }
 
 /* Responsive Design */
