@@ -96,10 +96,11 @@ nav {
 }
 
 .nav-brand {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--primary-color);
     letter-spacing: 0;
+    line-height: 1;
 }
 
 .nav-brand:hover {
@@ -121,6 +122,7 @@ nav {
     padding-bottom: 0;
     border-bottom: none;
     font-weight: 400;
+    line-height: 1;
 }
 
 .nav-menu a:hover {
@@ -147,7 +149,7 @@ nav {
 /* Main Container */
 main {
     max-width: var(--max-width);
-    margin: 0.4in auto 0 auto;
+    margin: 0.3in auto 0 auto;
     padding: var(--padding);
     background-color: #f5f5f5;
     border-radius: 4px;
