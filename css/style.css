@@ -233,6 +233,7 @@ ul, ol {
 li {
     margin-bottom: 0.75rem;
     line-height: 1.8;
+    text-align: justify;
 }
 
 /* Card Styles */
