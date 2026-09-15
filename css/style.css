@@ -95,7 +95,7 @@ nav {
 }
 
 .nav-brand {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: var(--primary-color);
     letter-spacing: 0;
@@ -113,7 +113,7 @@ nav {
 
 .nav-menu a {
     color: var(--primary-color);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: color 0.3s ease;
     padding-bottom: 0;
     border-bottom: none;
@@ -165,8 +165,8 @@ main {
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 0;
     object-fit: cover;
     border: none;
@@ -180,8 +180,8 @@ main {
     }
 
     .profile-image {
-        width: 120px;
-        height: 120px;
+        width: 160px;
+        height: 160px;
     }
 }
 
