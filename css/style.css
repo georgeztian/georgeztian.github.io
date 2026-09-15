@@ -1,13 +1,13 @@
 /* Root Variables */
 :root {
-    --primary-color: #D4AF37;
+    --primary-color: #CE8946;
     --secondary-color: #000000;
     --text-color: #000000;
     --light-text: #333333;
-    --link-color: #D4AF37;
+    --link-color: #CE8946;
     --background-color: #ffffff;
     --light-background: #ffffff;
-    --border-color: #D4AF37;
+    --border-color: #CE8946;
     --padding: 1.5rem;
     --max-width: 800px;
 }
