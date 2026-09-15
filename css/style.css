@@ -165,8 +165,8 @@ main {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 0;
     object-fit: cover;
     border: none;
@@ -180,8 +180,8 @@ main {
     }
 
     .profile-image {
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
     }
 }
 
