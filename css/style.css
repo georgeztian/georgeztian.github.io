@@ -1,27 +1,15 @@
 /* Root Variables */
 :root {
     --primary-color: #D4AF37;
-    --secondary-color: #555555;
-    --text-color: #555555;
-    --light-text: #777777;
+    --secondary-color: #666666;
+    --text-color: #666666;
+    --light-text: #888888;
     --link-color: #D4AF37;
-    --background-color: #fafafa;
-    --light-background: #fafafa;
+    --background-color: #ffffff;
+    --light-background: #ffffff;
     --border-color: #D4AF37;
     --padding: 1.5rem;
     --max-width: 800px;
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text-color: #e8e8e8;
-        --light-text: #c0c0c0;
-        --background-color: #f5f5f5;
-        --light-background: #f5f5f5;
-        --border-color: #D4AF37;
-        --secondary-color: #555555;
-    }
 }
 
 /* Reset and Base Styles */
