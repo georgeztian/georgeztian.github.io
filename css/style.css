@@ -1,14 +1,15 @@
 /* Root Variables */
 :root {
-    --primary-color: #333333;
-    --secondary-color: #666666;
-    --text-color: #333333;
-    --light-text: #666666;
+    --primary-color: #202124;
+    --secondary-color: #5f6368;
+    --text-color: #202124;
+    --light-text: #5f6368;
+    --link-color: #1155cc;
     --background-color: #ffffff;
-    --light-background: #f5f5f5;
-    --border-color: #e0e0e0;
-    --padding: 2rem;
-    --max-width: 900px;
+    --light-background: #ffffff;
+    --border-color: #dadce0;
+    --padding: 1.5rem;
+    --max-width: 800px;
 }
 
 /* Dark mode support */
@@ -43,22 +44,22 @@ body {
 
 /* Typography */
 h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 400;
     color: var(--primary-color);
-    margin-bottom: 0.3rem;
+    margin-bottom: 0;
     line-height: 1.2;
-    letter-spacing: -0.5px;
+    letter-spacing: 0;
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: var(--primary-color);
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 0.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 h3 {
@@ -75,13 +76,13 @@ p {
 }
 
 a {
-    color: var(--secondary-color);
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--accent-color);
+    color: var(--link-color);
     text-decoration: underline;
 }
 
@@ -89,7 +90,7 @@ a:hover {
 header {
     background-color: white;
     color: var(--primary-color);
-    padding: 1.5rem var(--padding);
+    padding: 1rem var(--padding);
     border-bottom: 1px solid var(--border-color);
     position: sticky;
     top: 0;
@@ -105,39 +106,40 @@ nav {
 }
 
 .nav-brand {
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--primary-color);
-    letter-spacing: 0.5px;
+    letter-spacing: 0;
 }
 
 .nav-brand:hover {
-    color: var(--secondary-color);
+    color: var(--link-color);
 }
 
 .nav-menu {
     display: flex;
-    gap: 2.5rem;
+    gap: 2rem;
     list-style: none;
 }
 
 .nav-menu a {
     color: var(--primary-color);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     transition: color 0.3s ease;
-    padding-bottom: 0.25rem;
-    border-bottom: 2px solid transparent;
-    font-weight: 500;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-weight: 400;
 }
 
 .nav-menu a:hover {
-    color: var(--secondary-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
 .nav-menu a.active {
     color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: none;
+    font-weight: 500;
 }
 
 /* Mobile Menu Toggle */
@@ -159,29 +161,38 @@ main {
 
 /* Hero Section */
 .hero {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding: 3rem 0 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
 }
 
 /* Profile Image */
 .profile-container {
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
     object-fit: cover;
     border: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
 }
 
 @media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .profile-image {
-        width: 160px;
-        height: 160px;
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -223,11 +234,11 @@ li {
 .card {
     background-color: transparent;
     border-left: none;
-    padding: 1.5rem 0;
-    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
     border-radius: 0;
     transition: none;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: none;
 }
 
 .card:last-child {
@@ -241,8 +252,9 @@ li {
 
 .card h3 {
     margin-top: 0;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
 }
 
 /* Quick Links */
@@ -273,40 +285,42 @@ li {
 /* Contact Info */
 .contact-info {
     background-color: transparent;
-    padding: 2rem 0;
+    padding: 0;
     border-radius: 0;
-    margin-top: 2rem;
-    border-top: 1px solid var(--border-color);
-    padding-top: 2rem;
+    margin-top: 0;
+    border-top: none;
 }
 
 .contact-info p {
-    margin-bottom: 0.75rem;
-    line-height: 1.8;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
 
 /* Footer */
 footer {
-    background-color: var(--light-background);
+    background-color: white;
     color: var(--secondary-color);
-    text-align: center;
-    padding: 3rem var(--padding);
-    margin-top: 4rem;
+    text-align: left;
+    padding: 2rem var(--padding);
+    margin-top: 3rem;
     border-top: 1px solid var(--border-color);
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer p {
     color: var(--secondary-color);
     margin-bottom: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 footer a {
-    color: var(--primary-color);
+    color: var(--link-color);
 }
 
 footer a:hover {
-    color: var(--secondary-color);
+    color: var(--link-color);
 }
 
 /* Responsive Design */
